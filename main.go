@@ -1,4 +1,4 @@
-//go:generate go-bindata-assetfs -pkg main -o files.go  index.html css/
+//go:generate go-bindata-assetfs -pkg main -o files.go  index.html images/ css/
 
 package main
 
