@@ -21,6 +21,8 @@ Check out <http://getskeleton.com> for documentation and details.
   * cd to project folder
   * run `[sudo] npm install` (first time users)
   * run `node-sass scss/skeleton.scss css/skeleton.css --output-style compressed` (to watch and compile sass files)
+  * run `go get -u github.com/jteeuwen/go-bindata/...`
+  * run `go get -u github.com/elazarl/go-bindata-assetfs/...`
   * build executable `go generate && go build .`
   * run `./Skeleton-Sass` (linux) or `./Skeleton-Sass.exe` (windows)
   * open url `http://127.0.0.1:8000` and see index page
