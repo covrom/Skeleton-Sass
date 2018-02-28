@@ -14,12 +14,16 @@ Check out <http://getskeleton.com> for documentation and details.
 ### Install Global Dependencies
   * [Node.js](http://nodejs.org)
   * node-sass
+  * Go language (1.x)
 
 ### Install Local Dependencies
   * [Clone the repo](github-mac://openRepo/https://github.com/covrom/Skeleton-Sass) from your terminal
   * cd to project folder
   * run `[sudo] npm install` (first time users)
   * run `node-sass scss/skeleton.scss css/skeleton.css --output-style compressed` (to watch and compile sass files)
+  * build executable `go generate && go build .`
+  * run `./Skeleton-Sass` (linux) or `./Skeleton-Sass.exe` (windows)
+  * open url `http://127.0.0.1:8000` and see index page
 
 ### Why it's awesome
 
