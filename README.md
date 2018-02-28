@@ -1,6 +1,7 @@
 # [Skeleton-Sass](http://getskeleton.com)
 
 Skeleton-Sass is the (un)official Sass version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently featues a stable version of Skeleton 2.0.4
+Roman TSovanyan change the default font to Noto Sans for russian language support.
 
 -----
 
@@ -12,36 +13,13 @@ Check out <http://getskeleton.com> for documentation and details.
 
 ### Install Global Dependencies
   * [Node.js](http://nodejs.org)
-  * [bower](http://bower.io): `[sudo] npm install bower -g`
-  * [grunt.js](http://gruntjs.com): `[sudo] npm install -g grunt-cli`
+  * node-sass
 
 ### Install Local Dependencies
-  * [Download zip](https://github.com/whatsnewsaes/Skeleton-Sass/archive/master.zip), [clone the repo](github-mac://openRepo/https://github.com/whatsnewsaes/Skeleton-Sass) or `bower install skeleton-scss` from your terminal
+  * [Clone the repo](github-mac://openRepo/https://github.com/covrom/Skeleton-Sass) from your terminal
   * cd to project folder
   * run `[sudo] npm install` (first time users)
-  * run `grunt` (to watch and compile sass files)
-
-### What's in the download?
-
-The download includes Skeleton's CSS, ~~Normalize CSS as a reset,~~ a sample favicon, and an index.html as a starting point.
-
-```
-skeleton/
-├── index.html
-├── scss/
-│   └── skeleton.scss
-├── images/
-│   └── favicon.png
-├── package.json
-├── Gruntfile.js
-└── README.md
-
-```
-
-### Contributions
-The goal of Skeleton-Sass is to have a mirrored Sass repository of Skeleton. In order to keep the integrity of the original Skeleton framework, I cannot accept any features or functionality outside the original implementation of [Dave Gamache's](https://twitter.com/dhg) [Skeleton Framework](https://github.com/dhg/Skeleton). If you would like to see features, functionality, or extensions outside of the original please make a PR / or issue on the original skeleton framework.
-
-If you have sass improvements, additional mixins, or other helpful sass techniques that stay within the original codebase. Feel free to make a pull request!
+  * run `node-sass scss/skeleton.scss css/skeleton.css` (to watch and compile sass files)
 
 ### Why it's awesome
 
