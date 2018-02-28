@@ -19,7 +19,8 @@
     "boilerplate"
   ],
   "license": "MIT",
-  "devDependencies": {
-   
+  "devDependencies": {},
+  "dependencies": {
+    "node-sass": "^4.7.2"
   }
 }
