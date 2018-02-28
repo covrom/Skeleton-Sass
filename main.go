@@ -11,6 +11,6 @@ import (
 func main() {
 	http.Handle("/",
 		http.FileServer(
-			&assetfs.AssetFS{Asset: Asset, AssetDir: AssetDir, AssetInfo: AssetInfo, Prefix: "data"}))
+			&assetfs.AssetFS{Asset: Asset, AssetDir: AssetDir, AssetInfo: AssetInfo, Prefix: ""}))
 	http.ListenAndServe(":8000", nil)
 }
