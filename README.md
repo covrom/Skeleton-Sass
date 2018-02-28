@@ -19,7 +19,7 @@ Check out <http://getskeleton.com> for documentation and details.
   * [Clone the repo](github-mac://openRepo/https://github.com/covrom/Skeleton-Sass) from your terminal
   * cd to project folder
   * run `[sudo] npm install` (first time users)
-  * run `node-sass scss/skeleton.scss css/skeleton.css` (to watch and compile sass files)
+  * run `node-sass scss/skeleton.scss css/skeleton.css --output-style compressed` (to watch and compile sass files)
 
 ### Why it's awesome
 
